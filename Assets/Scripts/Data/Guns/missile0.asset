@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22c9dbdd100ab146bd1bd7a75a4d959, type: 3}
+  m_Name: missile0
+  m_EditorClassIdentifier: Assembly-CSharp::MissileData
+  explosionEffectPrefab: {fileID: 1337198075554910, guid: 25c7aa9ad705fe143a4d71c1c8deb7d4, type: 3}
+  trailPrefab: {fileID: 6612039787568525505, guid: ed684ae44d343554f81f7a6104572892, type: 3}
+  thrustForse: 2000
+  thrustTime: 2
+  thrustDelay: 0
+  forceDown: 10000
+  maxDistance: 2000
+  explosionRadius: 10
+  explosionForce: 50000
+  damage: 1000

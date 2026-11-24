@@ -1,0 +1,30 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/index.uss?fileID=7433441132597879392&amp;guid=4c92328698f82b14dabf1a780a9f2e75&amp;type=3#index"/>
+    <ui:VisualElement name="root" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="menu" class="menu" style="flex-grow: 1; width: 20%;">
+            <ui:Button text="Назад" name="backButton" class="menuButton"/>
+            <ui:Button text="Играть" name="startButton" class="menuButton"/>
+            <ui:Button text="Серверы" name="hostsButton" class="menuButton"/>
+        </ui:VisualElement>
+        <ui:ScrollView class="menu" style="width: 80%; margin-left: 10px;">
+            <ui:Label text="Хост" name="Label" class="section"/>
+            <ui:VisualElement name="option" class="levelOption" style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="Хост сервера" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; width: 30%;"/>
+                <ui:TextField label="" placeholder-text="localhost" style="width: 60%;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="option" class="levelOption" style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="Порт сервера" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; width: 30%;"/>
+                <ui:IntegerField label="" value="1000" name="maxPlayers" max-length="6" style="width: 60%; flex-wrap: nowrap;"/>
+            </ui:VisualElement>
+            <ui:Label text="Матч" class="section"/>
+            <ui:VisualElement name="option" class="levelOption" style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="Максимальное&#10;количество игроков" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; width: 30%;"/>
+                <ui:IntegerField label="" value="10" name="maxPlayers" style="width: 60%; flex-wrap: nowrap;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="option" class="levelOption" style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="Карта" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; width: 30%;"/>
+                <ui:VisualElement name="maps" style="flex-grow: 1;"/>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

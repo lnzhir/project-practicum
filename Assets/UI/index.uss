@@ -1,0 +1,64 @@
+.menu {
+    background-color: rgba(0, 0, 0, 0.78);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: auto;
+}
+
+.menuButton {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(0, 233, 255);
+    border-right-color: rgb(0, 233, 255);
+    border-top-color: rgb(0, 233, 255);
+    border-bottom-color: rgb(0, 233, 255);
+    background-color: rgb(0, 164, 183);
+    --background: rgb(0, 0, 0);
+    --border: rgb(0, 0, 0);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+VisualElement {
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Tektur/Tektur-VariableFont_wdth,wght.ttf?fileID=12800000&guid=d50ee804987c62f4cbb5b2158b4c2688&type=3#Tektur-VariableFont_wdth,wght");
+}
+
+Label.section {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.levelOption {
+    background-color: rgba(0, 0, 0, 0.78);
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.menuButton:hover {
+    background-color: rgb(3, 209, 233);
+    border-left-color: rgb(0, 233, 255);
+    border-right-color: rgb(0, 233, 255);
+    border-top-color: rgb(0, 233, 255);
+    border-bottom-color: rgb(0, 233, 255);
+}
+
+.menuButton:active {
+    background-color: rgb(0, 164, 183);
+    border-left-color: rgb(0, 145, 159);
+    border-right-color: rgb(0, 145, 159);
+    border-top-color: rgb(0, 145, 159);
+    border-bottom-color: rgb(0, 145, 159);
+}

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1; width: 100%; height: 100%; position: absolute;">
+        <ui:VisualElement name="center" style="flex-grow: 1; width: 20%; height: 20%; top: 50%; left: 50%; translate: -50% -50%; bottom: auto; right: auto; position: absolute;">
+            <ui:VisualElement name="circle" style="flex-grow: 1; background-position-x: right 0; width: 5px; height: auto; aspect-ratio: 1; left: 50%; top: 50%; right: auto; bottom: auto; position: absolute; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; translate: -50% -50%;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="leftUp" style="flex-grow: 1; position: absolute; width: 40%; height: 40%; top: 10px; left: 10px; align-items: flex-start; flex-direction: column;">
+            <ui:VisualElement name="fpsRoot" style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="FPS" name="fpsLabel"/>
+                <ui:Label text="0" name="fps"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="rightUp" style="flex-grow: 1; position: absolute; width: 40%; height: 40%; right: 10px; top: 10px;"/>
+        <ui:VisualElement name="rightDown" style="flex-grow: 1; position: absolute; width: 40%; height: 40%; right: 10px; top: auto; bottom: 10px;"/>
+        <ui:VisualElement name="markers" style="flex-grow: 1; position: absolute; width: 100%; height: 100%;"/>
+    </ui:VisualElement>
+</ui:UXML>
